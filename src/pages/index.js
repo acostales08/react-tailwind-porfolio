@@ -1,10 +1,10 @@
 import React from 'react'
-import { Navbar } from '../Components'
+import ControlledhomeLayout from '../Components/HomeLayout/HomeLayout'
 
 const Home = () => {
   return (
     <div className=''>
-        <Navbar />
+        <ControlledhomeLayout />
     </div>
   )
 }
